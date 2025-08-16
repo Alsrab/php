@@ -107,6 +107,3 @@ git clone https://github.com/Alsrab/php.git
 * Verify all features before deployment.
 
 ---
-
-تحب أكتبلك نسخة كمان **من غير Markdown** (يعني نص عادي) بحيث تستخدمها لو في مكان مش بيدعم التنسيق؟
-```
