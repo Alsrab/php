@@ -1,4 +1,4 @@
-```markdown
+```
 # 🎁 Giveaway Web Application  
 
 A full-stack web application that allows users to participate in giveaways, view participants in real-time, and randomly select a winner. Built with **PHP, MySQL, JavaScript, and Bootstrap**.  
@@ -108,7 +108,5 @@ git clone https://github.com/Alsrab/php.git
 
 ---
 
-
-
-تحب أخليه بصيغة **جاهزة للنسخ واللصق** (زي ما طلبت قبل كده) وأرتبه بالـ Markdown بالكامل ولا عايزه يكون نص عادي بس؟
-`
+تحب أكتبلك نسخة كمان **من غير Markdown** (يعني نص عادي) بحيث تستخدمها لو في مكان مش بيدعم التنسيق؟
+```
