@@ -1,5 +1,3 @@
----
-
 🎁 Giveaway Web Application
 A full-stack web application that allows users to participate in giveaways, view participants in real-time, and randomly select a winner.
 Built with PHP, MySQL, JavaScript, and Bootstrap.
@@ -61,7 +59,3 @@ README.md
 
 * Test the project locally using XAMPP or WAMP
 * Verify that all features work as expected before deployment
----
-
-كده جاهز تحطه في `README.md` وهيظهر بشكل منسق وبسيط واحترافي 👌
-تحب أظبطلك نسخة **أقصر وأكتر اختصار** برضو تبقى مناسبة كـ "ملخص"؟
