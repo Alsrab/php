@@ -1,20 +1,20 @@
 ---
 
 🎁 Giveaway Web Application
-تطبيق ويب كامل بيسمح للمستخدمين بالمشاركة في السحوبات (Giveaways)، عرض قائمة المشاركين مباشرة، واختيار فائز عشوائي.
-مبني باستخدام PHP, MySQL, JavaScript, Bootstrap.
+A full-stack web application that allows users to participate in giveaways, view participants in real-time, and randomly select a winner.
+Built with PHP, MySQL, JavaScript, and Bootstrap.
 
 🌐 Live Demo
-رابط المشروع: [https://github.com/Alsrab/php](https://github.com/Alsrab/php)
+Project Link: [https://github.com/Alsrab/php](https://github.com/Alsrab/php)
 
 🚀 Features
 
-* تسجيل مستخدمين وتسجيل دخول بإدارة الجلسات (Sessions).
-* الاشتراك في السحب عن طريق الاسم والإيميل.
-* عرض المشتركين بشكل مباشر.
-* اختيار فائز عشوائي بواسطة الأدمن.
-* تعديل بيانات الحساب (اسم مستخدم/كلمة مرور).
-* حذف الحساب نهائيًا.
+* User Registration & Login with secure session management
+* Giveaway Participation by entering first name, last name, and email
+* Real-time Participants List display
+* Random Winner Selection by the admin
+* User Profile Management (update username and password)
+* Account Deletion by users
 
 🛠️ Technologies Used
 Frontend: HTML5, CSS3, JavaScript (ES6+), Bootstrap 5
@@ -22,14 +22,14 @@ Backend: PHP, MySQL
 Hosting: InfinityFree
 
 📂 Project Structure
-/html
+/HTML
 giveaway.html
 main.html
 
-/php
+/PHP
 random\_winner.php
 delete\_acc.php
-باقي ملفات الـ PHP
+other PHP scripts
 
 /java\_script
 load\_user.js
@@ -43,25 +43,25 @@ index.html
 README.md
 
 📌 Setup Instructions
-1- انسخ المستودع باستخدام: git clone [https://github.com/Alsrab/php.git](https://github.com/Alsrab/php.git)
-2- أنشئ قاعدة بيانات باسم basic\_login
-3- استورد ملف SQL الخاص بالجداول
-4- عدل بيانات الاتصال داخل ملفات /PHP/
-5- تأكد من ربط ملفات HTML بالـ CSS والـ JS
-6- ارفع المشروع على الاستضافة وتأكد أن PHP و MySQL شغالين
+1- Clone the repository using: git clone [https://github.com/Alsrab/php.git](https://github.com/Alsrab/php.git)
+2- Create a MySQL database named basic\_login
+3- Import the provided SQL schema to generate the tables
+4- Update database connection details inside the /PHP/ scripts
+5- Ensure all HTML files are correctly linked with CSS and JS files
+6- Upload the project to your hosting server and make sure PHP and MySQL are enabled
 
 🔐 Security Considerations
 
-* استخدام PHP Sessions لإدارة تسجيل الدخول.
-* التحقق وتنظيف المدخلات لتفادي SQL Injection و XSS.
-* تشفير كلمات السر باستخدام password\_hash().
-* يفضل استخدام HTTPS عند النشر.
+* Use PHP sessions for authentication and authorization
+* Validate and sanitize all user inputs to prevent SQL Injection and XSS attacks
+* Store passwords securely using password\_hash()
+* Use HTTPS in production to encrypt data transmission
 
 🧪 Testing
 
-* جرّب المشروع محليًا باستخدام XAMPP أو WAMP.
-* تأكد من عمل جميع الخصائص قبل رفعه على الاستضافة.
+* Test the project locally using XAMPP or WAMP
+* Verify that all features work as expected before deployment
+---
 
-
-كده كله بقى بنفس ستايل "الحماية" اللي عجبك، Plain Text مرتب من غير Markdown.
-تحب أديك نسخة تانية بالإنجليزي بس بنفس الشكل العادي ده برضو؟
+كده جاهز تحطه في `README.md` وهيظهر بشكل منسق وبسيط واحترافي 👌
+تحب أظبطلك نسخة **أقصر وأكتر اختصار** برضو تبقى مناسبة كـ "ملخص"؟
